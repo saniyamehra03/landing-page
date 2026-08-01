@@ -13,12 +13,6 @@
     transform: translateY(-5px);
     box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
-
-/* .card-img-top{
-    width:100%;
-    height:500px;
-    object-fit:cover;
-} */
 .card-body{
     text-align:center;
 }
@@ -52,4 +46,33 @@
 #categories .card-img-top{
     height:250px;
     object-fit:cover;
+}
+footer .col-lg-4{
+    margin-bottom:20px;
+}
+footer a:hover{
+      color:#0d6efd !important;
+}
+#contact{
+    padding:80px 0;
+}
+.form-control{
+    border-radius:8px;
+}
+.btn{
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+footer ul li {
+    margin-bottom: 8px;
+}
+
+footer h5 {
+    margin-bottom: 15px;
+}
+html{
+    scroll-behavior: smooth;
 }
